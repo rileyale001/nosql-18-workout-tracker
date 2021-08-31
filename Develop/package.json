@@ -1,0 +1,30 @@
+{
+  "name": "mongoose_skeleton",
+  "version": "1.0.0",
+  "description": "A workout tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "heroku": "^7.59.0",
+    "mongoose": "^5.13.8",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileyale001/nosql-18-workout-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rileyale001/nosql-18-workout-tracker/issues"
+  },
+  "homepage": "https://github.com/rileyale001/nosql-18-workout-tracker#readme"
+}
